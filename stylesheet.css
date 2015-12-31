@@ -1,0 +1,13 @@
+table, tr, td {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border: 4px ridge #FF7D7E;
+  font-size: 1.5em;
+  color: #403273;
+  background-color: #FF7D7E;
+}
+
+td {
+  background-color: #E2FFCD;
+}
