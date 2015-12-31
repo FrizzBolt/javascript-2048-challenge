@@ -6,21 +6,51 @@
     differences in how form elements appear between Firefox and IE
     See: http://necolas.github.com/normalize.css/
   -->
-  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="normalize.css">
   <!--
     application.css is where you put your styles
   -->
-  <link rel="stylesheet" href="/css/application.css">
+  <link rel="stylesheet" href="application.css">
 
-  <script src="/js/lib/jquery-2.1.4.js"></script>
-  <script src="/js/lib/util.js"></script>
-  
-  <script src="/js/app/game.js"></script>
-  <script src="/js/app/application.js"></script>
+  <script src="js/lib/jquery-2.1.4.js"></script>
+  <script src="js/lib/util.js"></script>
+
+  <script src="js/app/game.js"></script>
+  <script src="js/app/application.js"></script>
 
   <title>256!</title>
 </head>
 <body>
+  <div class="game-board">
+    <table>
+    <tr>
+        <td><div id="col-1-row-1"></div></td>
+        <td><div id="col-2-row-1"></div></td>
+        <td><div id="col-3-row-1"></div></td>
+        <td><div id="col-4-row-1"></div></td>
+    </tr>
 
+    <tr>
+        <td><div id="col-1-row-2"></div></td>
+        <td><div id="col-2-row-2"></div></td>
+        <td><div id="col-3-row-2"></div></td>
+        <td><div id="col-4-row-2"></div></td>
+    </tr>
+
+    <tr>
+        <td><div id="col-1-row-3"></div></td>
+        <td><div id="col-2-row-3"></div></td>
+        <td><div id="col-3-row-3"></div></td>
+        <td><div id="col-4-row-3"></div></td>
+    </tr>
+
+    <tr>
+        <td><div id="col-1-row-4"></div></td>
+        <td><div id="col-2-row-4"></div></td>
+        <td><div id="col-3-row-4"></div></td>
+        <td><div id="col-4-row-4"></div></td>
+    </tr>
+  </table>
+  </div>
 </body>
 </html>

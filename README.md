@@ -1,3 +1,25 @@
+#MODELS
+  ##Tile
+  ##Board
+#METHODS
+  #Tile
+    ##Move
+      ###Up
+      ###Down
+      ###Left
+      ###Right
+    ##ValueChange
+      ##2,4,8,16,32,64,128,256
+  #Board
+
+#Application Tree
+  #app
+    #controller
+    #model
+    #view
+
+
+
 # 256! A 2048 Clone.
 
 ## Learning Competencies
@@ -64,9 +86,9 @@ You might want to setup Jasmine and write specs for model. Or you might want to 
 
 ### Release 2: Integrate the model with the interface via a controller
 
-In your application.js file code to instantiate a new instance of the Game model. Using Mousetrap make it so that your keypresses will send `move` commands to the Game. 
+In your application.js file code to instantiate a new instance of the Game model. Using Mousetrap make it so that your keypresses will send `move` commands to the Game.
 
-In your Game model and controller write methods to update the DOM to display your board. 
+In your Game model and controller write methods to update the DOM to display your board.
 
 ### Release 3: Bonuses!
 

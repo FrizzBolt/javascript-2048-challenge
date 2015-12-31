@@ -1,0 +1,11 @@
+.game-board {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
+
+.game-board div {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}
